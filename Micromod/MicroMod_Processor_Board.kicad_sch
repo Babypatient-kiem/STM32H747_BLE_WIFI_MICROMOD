@@ -44513,404 +44513,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:ESDA6V1-5SC6"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "ESDA6V1-5SC6"
-				(at 2.54 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 17.78 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESDA6V1-5SC6_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDA6V1-5SC6_0_1"
-				(rectangle
-					(start -7.62 2.54)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0.635) (xy -4.445 0.635) (xy -4.445 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -0.635) (xy -4.445 -0.635) (xy -5.08 0.635) (xy -5.715 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -1.905) (xy 5.08 -1.905) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -1.905 0.635) (xy -1.905 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -1.905)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 0.635 0.635) (xy 0.635 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 0.635 -0.635) (xy 0 0.635) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.635) (xy 3.175 0.635) (xy 3.175 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.905)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0.635) (xy 5.715 0.635) (xy 5.715 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -0.635) (xy 5.715 -0.635) (xy 5.08 0.635) (xy 4.445 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDA6V1-5SC6_1_1"
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:FDN340P"
 			(pin_names
 				(hide yes)
@@ -45744,12 +45346,20 @@
 		(uuid "416497ad-7a53-4da4-b8e3-69158646c2dc")
 	)
 	(no_connect
+		(at 45.72 351.79)
+		(uuid "42663276-9ffc-4aad-a995-150a10dbe28d")
+	)
+	(no_connect
 		(at 525.78 106.68)
 		(uuid "5a9e52be-59c4-44be-9b4d-2f083a7ccf78")
 	)
 	(no_connect
 		(at 33.02 356.87)
 		(uuid "62703081-c28d-4c1c-b485-0f01240caf70")
+	)
+	(no_connect
+		(at 525.78 137.16)
+		(uuid "8f130e3d-4596-4a9b-b79f-6b19824a6286")
 	)
 	(no_connect
 		(at 525.78 190.5)
@@ -45764,6 +45374,10 @@
 		(uuid "bcee7def-3498-4e11-adea-3d2d1d3dc87a")
 	)
 	(no_connect
+		(at 525.78 134.62)
+		(uuid "c082f6bf-7a0c-4235-b4eb-960dbc16d550")
+	)
+	(no_connect
 		(at 525.78 109.22)
 		(uuid "c93847b4-eba6-43b3-888f-73dacdcb25b7")
 	)
@@ -45774,6 +45388,10 @@
 	(no_connect
 		(at 102.87 105.41)
 		(uuid "d0396aea-6b9c-412b-9bc7-27bd2adb6e48")
+	)
+	(no_connect
+		(at 525.78 175.26)
+		(uuid "f10deb00-2995-4aef-a070-f49d1687b9f7")
 	)
 	(no_connect
 		(at 33.02 354.33)
@@ -45841,7 +45459,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 156.21) (xy 171.45 156.21)
+			(xy 163.83 105.41) (xy 171.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -46041,7 +45659,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 110.49) (xy 171.45 110.49)
+			(xy 163.83 176.53) (xy 171.45 176.53)
 		)
 		(stroke
 			(width 0)
@@ -46311,16 +45929,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 351.79) (xy 54.61 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3629fef2-3699-494b-a122-085d7abf6808")
-	)
-	(wire
-		(pts
 			(xy 163.83 128.27) (xy 166.37 128.27)
 		)
 		(stroke
@@ -46361,7 +45969,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 163.83 107.95)
+			(xy 74.93 158.75) (xy 102.87 158.75)
 		)
 		(stroke
 			(width 0)
@@ -46511,7 +46119,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 123.19) (xy 166.37 123.19)
+			(xy 102.87 186.69) (xy 100.33 186.69)
 		)
 		(stroke
 			(width 0)
@@ -46581,7 +46189,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 163.83 87.63)
+			(xy 86.36 161.29) (xy 102.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -46871,7 +46479,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 158.75) (xy 102.87 158.75)
+			(xy 100.33 189.23) (xy 102.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -46981,7 +46589,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 176.53) (xy 102.87 176.53)
+			(xy 173.99 156.21) (xy 163.83 156.21)
 		)
 		(stroke
 			(width 0)
@@ -47241,7 +46849,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 176.53) (xy 167.64 176.53)
+			(xy 163.83 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -47311,7 +46919,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 186.69) (xy 102.87 186.69)
+			(xy 86.36 110.49) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -47381,7 +46989,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 189.23) (xy 86.36 189.23)
+			(xy 102.87 146.05) (xy 86.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -47761,7 +47369,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 146.05) (xy 102.87 146.05)
+			(xy 166.37 110.49) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -48001,7 +47609,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 184.15) (xy 102.87 184.15)
+			(xy 175.26 87.63) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
@@ -48031,7 +47639,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 102.87 110.49)
+			(xy 175.26 123.19) (xy 163.83 123.19)
 		)
 		(stroke
 			(width 0)
@@ -48061,7 +47669,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 161.29) (xy 102.87 161.29)
+			(xy 100.33 184.15) (xy 102.87 184.15)
 		)
 		(stroke
 			(width 0)
@@ -48121,7 +47729,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 171.45 105.41)
+			(xy 102.87 176.53) (xy 95.25 176.53)
 		)
 		(stroke
 			(width 0)
@@ -48260,7 +47868,7 @@
 		(uuid "09bfaa3d-3ff8-4e06-9a11-3b82c9e7c8a3")
 	)
 	(label "PWM0"
-		(at 171.45 110.49 180)
+		(at 171.45 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48348,16 +47956,6 @@
 			(justify left bottom)
 		)
 		(uuid "123ac35e-e3d8-40cd-9b34-7266d28ae32b")
-	)
-	(label "G4"
-		(at 525.78 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13bfdbc8-112a-487b-bed4-143c80a09a78")
 	)
 	(label "USB_D+"
 		(at 480.06 121.92 180)
@@ -48549,16 +48147,6 @@
 		)
 		(uuid "277e5c06-9eda-4bde-afc0-cfe6cf6aeb14")
 	)
-	(label "PWM1"
-		(at 525.78 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b618d4f-1e08-418b-b139-a15332512bc3")
-	)
 	(label "BT_UART_TX"
 		(at 90.17 125.73 0)
 		(effects
@@ -48680,12 +48268,12 @@
 		(uuid "478afbf2-ca9c-4e55-85e0-9baec80eb57c")
 	)
 	(label "G1"
-		(at 91.44 110.49 0)
+		(at 175.26 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "478e8e68-94ba-45ce-9588-b84369bc95d2")
 	)
@@ -48700,7 +48288,7 @@
 		(uuid "48d0473e-4b8d-4eae-acde-b4f14013547f")
 	)
 	(label "G5"
-		(at 100.33 161.29 0)
+		(at 100.33 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48730,12 +48318,12 @@
 		(uuid "4e1c78e8-aa5d-4712-bd2b-9fd9686847a6")
 	)
 	(label "WL_GPIO_0_HOST_WAKE"
-		(at 191.77 107.95 180)
+		(at 74.93 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4ebc7f5a-7f42-4815-b0a5-512ce8ecaa8b")
 	)
@@ -48760,12 +48348,12 @@
 		(uuid "5023393f-df94-468b-8288-8e8933a0f884")
 	)
 	(label "G6"
-		(at 166.37 123.19 180)
+		(at 100.33 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5089564b-3fd1-4ca2-a6a1-929623ebfe27")
 	)
@@ -48920,12 +48508,12 @@
 		(uuid "73752e0a-daf0-4e94-8ae1-65127b4d8d27")
 	)
 	(label "BT_REG_ON"
-		(at 91.44 184.15 0)
+		(at 175.26 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "74b0728e-2bb7-47f1-979b-6ff44799baa0")
 	)
@@ -49090,7 +48678,7 @@
 		(uuid "943a5231-7b7e-4ff2-9058-46b745614c8d")
 	)
 	(label "G7"
-		(at 100.33 158.75 0)
+		(at 100.33 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49120,7 +48708,7 @@
 		(uuid "9838a79a-363e-4d37-8e12-8d722c46f48a")
 	)
 	(label "BT_DEV_WAKE"
-		(at 86.36 189.23 0)
+		(at 86.36 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49210,12 +48798,12 @@
 		(uuid "a0c2f452-0130-4b60-84b7-509dc98a130f")
 	)
 	(label "G2"
-		(at 100.33 146.05 0)
+		(at 166.37 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a2652d32-d584-44ac-b286-ba5435cc1155")
 	)
@@ -49259,16 +48847,6 @@
 		)
 		(uuid "a52f89de-d871-46ba-b574-5837a952254a")
 	)
-	(label "G6"
-		(at 54.61 351.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a688aa19-829c-47be-abf4-30210ecc7809")
-	)
 	(label "BT_PCM_CLK"
 		(at 262.89 232.41 0)
 		(effects
@@ -49289,6 +48867,16 @@
 		)
 		(uuid "a8e919b1-a46c-4a5b-b0cd-db61f1b3406a")
 	)
+	(label "WL_REG_ON"
+		(at 173.99 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa26a170-b6ec-4632-b449-77af1f4e879f")
+	)
 	(label "AUD_BCLK"
 		(at 480.06 160.02 180)
 		(effects
@@ -49300,7 +48888,7 @@
 		(uuid "aa9359a0-29a2-43c8-b2bb-242a854ee3ae")
 	)
 	(label "G3"
-		(at 167.64 176.53 180)
+		(at 167.64 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49378,16 +48966,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5f3e388-0e68-49c4-99aa-2ee6b8c4c88f")
-	)
-	(label "G4"
-		(at 99.06 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5fe2126-0d0f-4008-8535-e312f3e97fa9")
 	)
 	(label "G0"
 		(at 100.33 163.83 0)
@@ -49470,7 +49048,7 @@
 		(uuid "bf78573e-1acf-49b2-a557-935380fa75fb")
 	)
 	(label "~{SPI_CS}"
-		(at 171.45 156.21 180)
+		(at 171.45 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49690,12 +49268,12 @@
 		(uuid "daa3b10f-345f-4a2b-84e6-48a7c3f744ee")
 	)
 	(label "D1-CAM_TRIG"
-		(at 180.34 87.63 180)
+		(at 86.36 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "dc5e36a3-8ea5-4d5b-9583-c868e8386b29")
 	)
@@ -49739,16 +49317,6 @@
 		)
 		(uuid "e2efed27-cd62-430a-afa0-b36b9aea0dcc")
 	)
-	(label "PWM0"
-		(at 525.78 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3c1a1aa-b56c-49d5-af88-880c02f36a7e")
-	)
 	(label "G6"
 		(at 525.78 180.34 0)
 		(effects
@@ -49770,12 +49338,12 @@
 		(uuid "e511bed8-b9d2-4b16-8535-6b22a437f159")
 	)
 	(label "PWM1"
-		(at 171.45 105.41 180)
+		(at 95.25 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e999d592-ea31-469a-8fb1-27038aa4abde")
 	)
@@ -49888,16 +49456,6 @@
 			(justify right bottom)
 		)
 		(uuid "fde6b5c5-3c64-4982-bc8f-6d6ec8a35146")
-	)
-	(label "WL_REG_ON"
-		(at 86.36 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fec2663a-bde5-40aa-b89d-64c31ff2bcc9")
 	)
 	(symbol
 		(lib_id "MicroMod_Processor_Board_(2):OSHW-LOGOS")
@@ -51381,88 +50939,6 @@
 			(project "MicroMod_Processor_Board"
 				(path "/23379794-d91c-4ed0-b6e4-ab5185c8cae0"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:ESDA6V1-5SC6")
-		(at 67.31 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25554809-2048-479d-a082-08ab14626366")
-		(property "Reference" "D1"
-			(at 76.2 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESDA6V1-5SC6"
-			(at 76.2 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 85.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
-			(at 67.31 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "084493e1-55b6-4acd-8ee2-3877b3230e35")
-		)
-		(pin "4"
-			(uuid "f0a68f44-63c7-403f-a137-11384ca52921")
-		)
-		(pin "3"
-			(uuid "eb2908a1-7738-4b57-83f3-7d4a17bc6239")
-		)
-		(pin "6"
-			(uuid "0f937ac7-4cc2-4a90-8c29-4242bd67b9cd")
-		)
-		(pin "1"
-			(uuid "3270cc4b-39ff-4004-ba6a-049cb1d554b1")
-		)
-		(pin "2"
-			(uuid "df4325ed-10a7-4278-b3eb-728be6dbb8f2")
-		)
-		(instances
-			(project ""
-				(path "/23379794-d91c-4ed0-b6e4-ab5185c8cae0"
-					(reference "D1")
 					(unit 1)
 				)
 			)
