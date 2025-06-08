@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-06-09T01:03:38+02:00*%
+%TF.ProjectId,WiFi_1YN,57694669-5f31-4594-9e2e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-06-09 01:03:38*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X188506000Y-60870000D02*
+X220100000Y-60870000D01*
+X220100000Y-75802600D01*
+X188506000Y-75802600D01*
+X188506000Y-60870000D01*
+M02*

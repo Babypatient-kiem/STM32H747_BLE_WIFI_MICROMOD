@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "MicroMod_Processor_Board_(2)")(type Legacy)(uri "${KIPRJMOD}/MicroMod_Processor_Board (2).lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "MicroMod_Processor_Board_(2)")(type "Legacy")(uri "${KIPRJMOD}/MicroMod_Processor_Board (2).lib")(options "")(descr ""))
+  (lib (name "DF40C-20DP-0.4V_51_")(type "KiCad")(uri "/home/victor/Documents/STM32L5_BLE_WIFI_MICROMOD/WiFi/WiFi_1YN/DF40C_20DP_0_4V_51_/DF40C-20DP-0.4V_51_.kicad_sym")(options "")(descr ""))
 )

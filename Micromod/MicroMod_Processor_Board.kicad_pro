@@ -1093,10 +1093,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "board_outline/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MicroMod_Processor_Board.step",
       "svg": "",
       "vrml": ""
     },
