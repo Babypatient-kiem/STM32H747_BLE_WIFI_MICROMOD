@@ -54166,7 +54166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 254 128.2699 0)
 			(effects
 				(font
@@ -54501,7 +54501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H562VGTx"
+		(property "Value" "STM32H563VGTx"
 			(at 138.0333 217.17 0)
 			(effects
 				(font

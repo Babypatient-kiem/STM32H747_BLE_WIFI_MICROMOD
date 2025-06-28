@@ -547,18 +547,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1f6caf0a-d88c-4257-85c5-69eeea3ed412")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a60fa3a2-de9d-4887-a44c-df6a32db75c5")
 		(sheetname "/")
@@ -957,18 +945,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23630"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a04a0750-7e2d-436e-9bd3-9970a5340b6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/09d42563-0cd0-4fda-9c7b-3d5e0c263a6e")
 		(sheetname "/")
@@ -1177,18 +1153,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2286"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b3167b4e-4813-4641-bce0-32b1d8cd82e7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1407,18 +1371,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb838a0b-4a90-468b-aba2-b1e1ec6b737c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C23179"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d8b6bd3e-fec2-4ec3-a512-44e2a51fe770")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,18 +2373,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1985604"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "216bb576-8a3f-434c-99bc-a8fbca2f08bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Crystal*")
 		(path "/e0fa5cd8-beea-42ab-8db1-69763c9fdb3f")
 		(sheetname "/")
@@ -2799,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32H562VGTx"
+		(property "Value" "STM32H563VGTx"
 			(at 0 9.43 90)
 			(layer "F.Fab")
 			(uuid "86463c05-fce3-41da-b986-76e5e59766fa")
@@ -2827,18 +2767,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a5c6ae5-57df-4435-892f-96eebdf8eff7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C22452133"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "80761a0d-b3a2-4b40-807b-7d4ef6cc21c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,18 +7033,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C3032587"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e683761a-b595-4a10-a033-3a56a3acf1b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/22794136-bf6f-4b0c-ba16-893441a1faf3")
 		(sheetname "/")
@@ -8780,7 +8696,7 @@
 		(path "/fcb3e985-ef02-4619-b8e1-34277998613c")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
@@ -8984,7 +8900,7 @@
 		(path "/60de1de5-992d-4505-8539-ceb8f2fabcf5")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -9146,7 +9062,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "35dcf537-34f2-48c3-9290-bae6af7ab874")
@@ -9188,7 +9104,7 @@
 		(path "/ebf00bf3-239c-40c1-8a1c-7394084d22f8")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -9392,7 +9308,7 @@
 		(path "/fc0cf808-f540-42e5-8ab2-ade0a0c487ee")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
@@ -9597,7 +9513,7 @@
 		(path "/a6cfe384-cf64-4929-972a-9f61afcdc572")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 0 -1.56)
 			(end -0.65 -1.56)
@@ -9935,7 +9851,7 @@
 		(path "/bed0c4d2-c42e-430e-85e0-8a84f8c8af0d")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
@@ -10139,7 +10055,7 @@
 		(path "/5ebdf033-00b7-4fab-a666-2d148ae9c29e")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -10345,7 +10261,7 @@
 		(path "/018568ba-01eb-491c-87b6-05680e0bbb37")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 6.91 5.81)
 			(end 6.91 5.41)
@@ -10829,7 +10745,7 @@
 		(path "/2c3e9f1d-fd22-40c6-9bcb-234565b2ef9e")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -11033,7 +10949,7 @@
 		(path "/dfa7ed62-3623-428c-994d-7ab1c931c477")
 		(sheetname "/")
 		(sheetfile "MicroMod_Processor_Board.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
