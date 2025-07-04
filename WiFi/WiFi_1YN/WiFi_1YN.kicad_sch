@@ -3081,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 21.59 71.12)
+			(xy 35.56 63.5) (xy 21.59 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3881,7 +3881,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 21.59 63.5)
+			(xy 35.56 71.12) (xy 21.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +3950,7 @@
 		(uuid "12b7f0b7-e513-4631-9233-dd9a75977506")
 	)
 	(label "BT_UART_RTS"
-		(at 21.59 71.12 0)
+		(at 21.59 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4230,7 +4230,7 @@
 		(uuid "bc86f359-8d31-4fc9-97cc-aa3731309ef8")
 	)
 	(label "BT_UART_CTS"
-		(at 21.59 63.5 0)
+		(at 21.59 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)

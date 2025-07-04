@@ -45688,16 +45688,8 @@
 		(uuid "a79f54d6-6b80-4759-be78-75a547e68957")
 	)
 	(no_connect
-		(at 102.87 176.53)
-		(uuid "adb4aec5-b439-4890-add3-c78af56129a2")
-	)
-	(no_connect
 		(at 525.78 185.42)
 		(uuid "bcee7def-3498-4e11-adea-3d2d1d3dc87a")
-	)
-	(no_connect
-		(at 525.78 134.62)
-		(uuid "c082f6bf-7a0c-4235-b4eb-960dbc16d550")
 	)
 	(no_connect
 		(at 525.78 109.22)
@@ -46621,6 +46613,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 176.53) (xy 96.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a81e2b9-4267-4369-82e9-08c0d1b47460")
+	)
+	(wire
+		(pts
 			(xy 45.72 349.25) (xy 54.61 349.25)
 		)
 		(stroke
@@ -47378,6 +47380,16 @@
 			(type default)
 		)
 		(uuid "a3a10dc1-2a51-4695-8590-5fdab4fb0cea")
+	)
+	(wire
+		(pts
+			(xy 525.78 134.62) (xy 532.13 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e99567-8e3e-4e84-a0c4-d9ec409141a9")
 	)
 	(wire
 		(pts
@@ -48289,6 +48301,16 @@
 		)
 		(uuid "0a633ae0-9b3e-4637-b46e-c145d95ebc28")
 	)
+	(label "PWM0"
+		(at 96.52 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b65af48-09fa-4eb0-bdae-c37e63c0651d")
+	)
 	(label "USB_D-"
 		(at 480.06 119.38 180)
 		(effects
@@ -48948,6 +48970,16 @@
 			(justify right bottom)
 		)
 		(uuid "775b4ed3-58f3-4f70-964c-f181afcf5724")
+	)
+	(label "PWM0"
+		(at 532.13 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b79faad-bcba-4c1e-9396-ead1aa798864")
 	)
 	(label "I2C_SCL"
 		(at 171.45 143.51 180)
